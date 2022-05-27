@@ -34,8 +34,10 @@ body {
 }
 
 #result {
+  display: grid;
   width: 13.5rem;
   height: 2.5rem;
+  /* height: minmax(2.5rem, auto); */
 
   background-color: #fff;
 
@@ -46,6 +48,9 @@ body {
   text-align: right;
   padding-right: 10px;
   color: #000000;
+
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 button {
