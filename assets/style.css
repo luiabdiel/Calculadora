@@ -38,6 +38,7 @@ body {
   width: 13.5rem;
   height: 2.5rem;
   /* height: minmax(2.5rem, auto); */
+  /* min-height: 2.5rem, auto; */
 
   background-color: #fff;
 
